@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <input type="button" value="Click" onclick="Start()">
+    </body>
+    <script>
+        function google(){
+            window.open("https://google.com")
+            setInterval(bing(),5000)
+    }
+        function bing(){
+            window.open("https://bing.com")            
+        }
+
+        function Start(){
+            setInterval(google(),5000)            
+        }
+    </script>
+</html>
